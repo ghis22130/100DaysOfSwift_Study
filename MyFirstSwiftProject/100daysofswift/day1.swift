@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+func Test(){
+    print("Hello")
+}
