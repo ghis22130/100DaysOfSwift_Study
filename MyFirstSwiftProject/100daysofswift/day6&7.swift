@@ -9,7 +9,7 @@
 //Closures
 import Foundation
 
-func closures(){
+func day6(){
 
 //closure선언
     let driving = { (place: String) in      //(place: String) 매개변수 받기
