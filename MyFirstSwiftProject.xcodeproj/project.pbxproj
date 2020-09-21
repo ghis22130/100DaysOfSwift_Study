@@ -30,6 +30,7 @@
 		FF661D932511DBF8006A55FD /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF661D892511DBF8006A55FD /* nssl0043.jpg */; };
 		FF661D942511DBF8006A55FD /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF661D8A2511DBF8006A55FD /* nssl0033.jpg */; };
 		FF661D952511DBF8006A55FD /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF661D8B2511DBF8006A55FD /* nssl0034.jpg */; };
+		FF7C523925188E6B0005791C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C523825188E6B0005791C /* DetailViewController.swift */; };
 		FF9D90AB250C48FD009E8152 /* day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D90AA250C48FD009E8152 /* day11.swift */; };
 		FF9D90AD250F08DC009E8152 /* day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D90AC250F08DC009E8152 /* day12.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		FF661D892511DBF8006A55FD /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
 		FF661D8A2511DBF8006A55FD /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		FF661D8B2511DBF8006A55FD /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		FF7C523825188E6B0005791C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FF9D90AA250C48FD009E8152 /* day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day11.swift; sourceTree = "<group>"; };
 		FF9D90AC250F08DC009E8152 /* day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day12.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +140,7 @@
 				FF5DF059250662CE00BC2E56 /* AppDelegate.swift */,
 				FF5DF05B250662CE00BC2E56 /* SceneDelegate.swift */,
 				FF5DF05D250662CE00BC2E56 /* ViewController.swift */,
+				FF7C523825188E6B0005791C /* DetailViewController.swift */,
 				FF5DF05F250662CE00BC2E56 /* Main.storyboard */,
 				FF5DF062250662D300BC2E56 /* Assets.xcassets */,
 				FF5DF064250662D300BC2E56 /* LaunchScreen.storyboard */,
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7C523925188E6B0005791C /* DetailViewController.swift in Sources */,
 				FF5DF08B250663F400BC2E56 /* day1.swift in Sources */,
 				FF9D90AD250F08DC009E8152 /* day12.swift in Sources */,
 				FF5DF0912509B47800BC2E56 /* day9.swift in Sources */,
