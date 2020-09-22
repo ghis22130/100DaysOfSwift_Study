@@ -27,6 +27,8 @@ class ViewController: UITableViewController {
                 pictures.append(item)
             }
         }
+        //pictures sort by name
+        pictures.sort()
         print(pictures)
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,10 +41,14 @@ class ViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // 1: try loading the "Detail" view controller and typecasting it to be DetailViewController
+        
+        //ViewController 직접 호출에 의한 화면 전환
         if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             // 2: success! Set its selectedImage property
             vc.selectedImage = pictures[indexPath.row]
-
+            vc.selectPictureNumber = indexPath.row
+            vc.totalPictureNumber = pictures.count
+            
             // 3: now push it onto the navigation controller
             navigationController?.pushViewController(vc, animated: true)
         }
