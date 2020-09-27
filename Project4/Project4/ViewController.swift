@@ -46,5 +46,15 @@ class ViewController: UIViewController, WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         title = webView.title
     }
+    
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+            let url = navigationAction.request.url
+            let absolute = url?.absoluteString ?? ""
+            
+    //        if absolute.contains("https://apple.com") {
+    //            return decisionHandler(.cancel)
+    //        }
+            return decisionHandler(.allow)
+        }
 }
 
